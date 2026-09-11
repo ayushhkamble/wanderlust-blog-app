@@ -2,7 +2,7 @@ version: "3.8"
 services:
   mongodb:
     container_name: mongo
-    image: mongo:latest
+    image: mongo:7.0
     volumes:
       - ./backend/data:/data
     ports:
